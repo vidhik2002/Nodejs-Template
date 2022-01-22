@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidhik2002/Nodejs-Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidhik2002/Nodejs-Template/issues"
+  },
+  "homepage": "https://github.com/vidhik2002/Nodejs-Template#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "express-joi-validation": "^5.0.1",
+    "express-rate-limit": "^6.1.0",
+    "joi": "^17.5.0",
+    "mongoose": "^6.1.7",
+    "winston": "^3.4.0"
+  }
+}
