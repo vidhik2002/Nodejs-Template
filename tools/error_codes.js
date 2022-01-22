@@ -1,5 +1,6 @@
 const error_codes = {
   E0: "undefined error occured",
+  E1: "invalid username",
 };
 
 const logical_errors = {

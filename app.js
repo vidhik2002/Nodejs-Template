@@ -34,6 +34,6 @@ app.use((error, req, res, next) => {
   });
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log('server started');
 });
