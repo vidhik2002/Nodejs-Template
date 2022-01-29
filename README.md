@@ -1,11 +1,15 @@
 # Nodejs-Template
-
 A template for any Nodejs project!
 
 #### Made Using
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 - [Express JS](https://expressjs.com/)
+
+#### Features 
+- Dockers
+- Logger
+- Rate Limit
 
 #### Installation
 1. To install latest version of npm
@@ -16,7 +20,8 @@ npm install -g npm@latest
 ```sh
 git clone https://github.com/vidhik2002/Nodejs-Template.git
 ```
-3. Run the command
+3. Replace .env.sample with .env and insert the Mongo URL
+4. Run the command
 ```
 nodemon app.js
 ```
