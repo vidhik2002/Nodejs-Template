@@ -10,6 +10,28 @@ A template for any Nodejs project!
 - Dockers
 - Logger
 - Rate Limit
+- Validation schema
+
+### Folder Structure
+    .
+    ├── logs                   
+    |   └── logger.js               # Logger file to log success, logical and error codes
+    ├── models 
+    |   └── dbInit.js               # Connection to the mongo database
+    ├── routes  
+    |   └── test.js                 # Test route 
+    ├── tools  
+    |   └── error_codes.js          # File containing a list of all codes
+    ├── utils  
+    |   └── validation_schema.js    # Schema to validate req.body
+    ├── .env
+    ├── .gitignore
+    ├── package.json
+    ├── package-lock.json
+    ├── Dockerfile
+    ├── docker-compose.yml
+    ├── app.js
+    └── README.md
 
 #### Installation
 1. To install latest version of npm
