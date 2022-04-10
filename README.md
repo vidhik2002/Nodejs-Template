@@ -1,13 +1,13 @@
 # Nodejs-Template
 A template for any Nodejs project!
 
-#### Made Using
+### Made Using
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 - [Express JS](https://expressjs.com/)
 
-#### Features 
-- Dockers
+### Features 
+- Docker
 - Logger
 - Rate Limit
 - Validation schema
@@ -34,7 +34,7 @@ A template for any Nodejs project!
     ├── CODE_OF_CONDUCT.md
     └── README.md
 
-#### Installation
+### Installation
 1. To install latest version of npm
 ```sh
 npm install -g npm@latest
@@ -48,6 +48,21 @@ git clone https://github.com/vidhik2002/Nodejs-Template.git
 ```
 nodemon app.js
 ```
+#### Updating packages
+To update the existing packages to latest version
+```
+npm update
+```
+If some of those updates are major releases, running `npm update` won't update the version of those.
+To update all packages to a new major version, install [npm-check-updates](https://www.npmjs.com/package/npm-check-updates).
+1. To install the `npm-check-updates` package globally
+```
+npm install -g npm-check-updates
+```
+2. To update all packages
+```
+ncu -u
+```
 ### For Dockerization
 Run the following commands
 ```sh
@@ -56,7 +71,7 @@ Run the following commands
 3.  docker run -p 3000:3000 -d <your username>/<name-of-node-application>
 ```
 
-## Contributing
+### Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
